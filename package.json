@@ -1,0 +1,27 @@
+{
+	"name": "uzzielkyle.github.io",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"format": "biome format --write index.html",
+		"lint": "biome lint index.html",
+		"check": "biome check index.html",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "12.23.0",
+			"onFail": "download"
+		}
+	},
+	"packageManager": "pnpm@12.23.0",
+	"type": "module",
+	"devDependencies": {
+		"@biomejs/biome": "2.6.9"
+	}
+}
